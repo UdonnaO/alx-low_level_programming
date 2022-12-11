@@ -5,7 +5,7 @@
 
 /**
  * main - Entry point
- * Description - Prints if random generated number is positive, zero or negative
+ * Description - Prints if random generated number is +ve, zero or -ve
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -21,5 +21,4 @@ int main(void)
 	else
 		printf("%d is positive\n", n);
 	return (0);
-
 }
